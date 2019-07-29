@@ -1,31 +1,134 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1671.5">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
-    span.s1 {font-kerning: none}
-  </style>
-</head>
-<body>
-<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
-<p class="p1"><span class="s1">&lt;html lang="en" dir="ltr"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;head&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta charset="utf-8"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;title&gt;&lt;/title&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/head&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;body&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="nav--desktop"&gt; didn't really discuss much about class</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="mobile-wrapper"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="header-cart__wrapper hidden-lg"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;a href="/cart" class="CartToggle header-cart"&gt;&lt;i class="icon icon-ra_bag"&gt;&lt;/i&gt;&lt;/a&gt; how does the i function</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;span class="header-cart__bubble cartCount has-items cartCount-updater<span class="Apple-converted-space">  </span>hidden-count"&gt;0&lt;/span&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/body&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Rebecca Atwood navbar </title>
+  </head>
+
+  <body>
+<div class="mobile-wrapper"> <!-- Not sure what class is. -->
+  <div class="header-cart__wrapper hidden-lg">
+    <a href="/cart" class="CartToggle header-cart"><i class="icon icon-ra_bag"></i></a>
+    <span class="header-cart__bubble cartCount has-items cartCount-updater  hidden-count">0</span>
+  </div>
+  <div class="logo-wrapper ">
+
+      <h1 class="h4 header-logo" itemscope="" itemtype="http://schema.org/Organization">
+        <a href="/" itemprop="url"><i class="icon icon-ra_primary-logo"></i></a> <!-- What does i represent -->
+      </h1>
+
+      <div class="header-menu nav-wrapper">
+    <ul class="main-menu accessibleNav">
+    <li class="grandparent  kids-4">
+      <a href="#" class="nav-link" id="Shop">Shop</a> <!-- How does id work? -->
+      <a href="#" class="nav-carat"><span class="plus">+</span><span class="minus">-</span></a>
+        <div class="main-menu-dropdown">
+          <ul class="main-menu-dropdown--list">
+  <li aria-haspopup="true"> <!-- Is aria-haspopup a style? -->
+      <ul class="collection-nav--child">
+        <li class="collection-nav--child-link"><h5><a href="/collections/all">All Collections</a></h5>
+        </li>
+        <li class="collection-nav--child-link"><h5><a href="/collections/new-arrivals">New Arrivals</a></h5>
+        </li>
+        <li class="collection-nav--child-link"><h5><a href="/collections/bedding">Bedding</a></h5>
+        <ul class="collection-nav--grandchild">
+            <li class="collection-nav--grandchild-link"><a href="/collections/duvets">Duvets</a></li>
+            <li class="collection-nav--grandchild-link"><a href="/collections/quilts">Coverlets + Quilts</a></li>
+            <li class="collection-nav--grandchild-link"><a href="/collections/pillowcases">Pillowcases</a></li>
+            <li class="collection-nav--grandchild-link"><a href="/collections/throw-blankets">Throws</a></li>
+        </ul>
+        </li>
+      </ul>
+  </li>
+
+  <li aria-haspopup="true">
+      <ul class="collection-nav--child">
+        <li class="collection-nav--child-link"><h5><a href="/collections/fabric-by-the-yard">Fabric</a></h5>
+        <ul class="collection-nav--grandchild">
+            <li class="collection-nav--grandchild-link"><a href="/collections/fabric-by-the-yard/Printed">Printed</a></li>
+            <li class="collection-nav--grandchild-link"><a href="/collections/fabric-by-the-yard/Woven">Woven</a></li>
+            <li class="collection-nav--grandchild-link"><a href="/collections/embroidered-fabrics">Embroidered</a></li>
+            <li class="collection-nav--grandchild-link"><a href="/collections/swatch-sets">Swatch Sets</a></li>
+        </ul>
+        </li>
+
+        <li class="collection-nav--child-link"><h5><a href="/collections/table-linens">Dining</a></h5>
+        <ul class="collection-nav--grandchild">
+            <li class="collection-nav--grandchild-link"><a href="/collections/table-linens">Table Linens</a></li>
+        </ul>
+        </li>
+      </ul>
+  </li>
+
+  <li aria-haspopup="true">
+      <ul class="collection-nav--child">
+        <li class="collection-nav--child-link"><h5><a href="/collections/wallpapers">Wallpaper</a></h5>
+        </li>
+
+        <li class="collection-nav--child-link"><h5><a href="/collections/accessories-gift">Accessories + Gifts</a></h5>
+        <ul class="collection-nav--grandchild">
+            <li class="collection-nav--grandchild-link"><a href="/collections/books">Books</a></li>
+            <li class="collection-nav--grandchild-link"><a href="/products/gift-card">Gift Card</a></li>
+            <li class="collection-nav--grandchild-link"><a href="/collections/zip-pouches">Zip Pouches</a></li>
+            <li class="collection-nav--grandchild-link"><a href="http://rebeccaatwood.com/apps/giftregistry">Gift Registry</a></li>
+        </ul>
+        </li>
+      </ul>
+  </li>
+
+  <li aria-haspopup="true">
+      <ul class="collection-nav--child">
+        <li class="collection-nav--child-link"><h5><a href="/collections/pillows">Pillows</a></h5>
+        <ul class="collection-nav--grandchild">
+            <li class="collection-nav--grandchild-link"><a href="/collections/pillows/Hand-Dyed">Hand Dyed</a></li>
+            <li class="collection-nav--grandchild-link"><a href="/collections/pillows/Printed">Printed</a></li>
+            <li class="collection-nav--grandchild-link"><a href="/collections/pillows/Woven">Woven</a></li>
+            <li class="collection-nav--grandchild-link"><a href="/collections/embroidered-pillows/Hand-Embroidered">Embroidered</a></li>
+            <li class="collection-nav--grandchild-link"><a href="/products/custom-pillow">Custom</a></li>
+        </ul>
+        </li>
+        <li class="collection-nav--child-link"><h5><a href="https://rebeccaatwood.com/collections/sale">Sale</a></h5>
+        <ul class="collection-nav--grandchild">
+            <li class="collection-nav--grandchild-link"><a href="/collections/end-of-roll-sale/sale">Fabric by the Yard</a></li>
+            <li class="collection-nav--grandchild-link"><a href="/collections/pillows/sale">Pillows</a></li>
+            <li class="collection-nav--grandchild-link"><a href="/collections/screen-printed-wallpaper/sale">Wallpaper</a></li>
+        </ul>
+        </li>
+      </ul>
+  </li>
+
+    <li class="child  kids-0">
+      <a href="/pages/about-us" class="nav-link" id="About">About</a>
+      </li>
+
+    <li class="child  kids-0">
+      <a href="/pages/process" class="nav-link" id="Process">Process</a>
+      </li>
+
+    <li class="child  kids-0">
+      <a href="/blogs/from-the-studio" class="nav-link" id="Blog">Blog</a>
+        </li>
+
+    <li class="child  kids-0">
+      <a href="/pages/book" class="nav-link" id="Books">Books</a>
+    </li>
+
+    <li class="child  kids-0">
+      <a href="/pages/visit-us" class="nav-link" id="Showroom">Showroom</a>
+    </li>
+
+    <li class="child  kids-0">
+      <a href="/pages/contact" class="nav-link" id="Contact">Contact</a>
+    </li>
+
+      <li class="cart-text-link">
+        <a href="/cart" class="CartToggle">
+          Bag
+          <span class=" hidden-count " id="nav-cartCountDesktop">(0)</span>
+        </a>
+      </li>
+    </ul>
+<div/>
 </body>
+
 </html>
